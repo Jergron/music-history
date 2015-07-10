@@ -1,0 +1,115 @@
+<body>
+  <header>
+    <div class="top">
+      <nav>
+        <ul>
+          <li>
+            View Music
+          </li>
+          <li id="liline">|</li>
+          <li>
+            <a href="#">Add Music</a>
+          </li>
+          <li id="liline">|</li>
+          <li>
+            <a href="#">Profile</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <article class="sidebar">
+    <section>
+      <legend for=fader id="slide" class="space">Song Length:</legend>
+      <div class="drop">
+        <input type=range min=0 max=5 value=3 id=fader>
+      </div>
+    </section>
+    <div class="drop">
+      <section>
+        <legend class="artist">
+          <p>Artist:</p>
+        </legend>
+        <select id="options">
+          <option value="options">Options</option>
+        </select>
+        <legend class="album">
+          <p>Album:</p>
+        </legend>
+        <select id="options">
+          <option value="options">Options</option>
+        </select>
+      </section>
+    </div>
+    <legend class="drop">
+      <p>Genre:</p>
+    </legend>
+    <div class="check">
+      <form action="demo_form.asp">
+        <legend>
+          <input type="checkbox" name="music" value="rock">Rock
+        </legend>
+        <legend>
+          <input type="checkbox" name="music" value="pop">Pop
+        </legend>
+        <legend>
+          <input type="checkbox" name="music" value="blues">Blues
+        </legend>
+    </div>
+    <div class="list">
+      <legend>
+        <input type="checkbox" name="music" value="classical">Classical
+      </legend>
+      <legend>
+        <input type="checkbox" name="music" value="jazz">Jazz
+      </legend>
+      <legend>
+        <input type="checkbox" name="music" value="hip hop">Hip Hop
+      </legend>
+    </div>
+    <div id="button">
+      <input type="submit" value="Filter">
+    </div>
+    </form>
+  </article>
+  <div class="main">
+    <article>
+      <section>
+        <legend>
+          <p id="song">Bad Blood</p>
+          <ul>
+            <p id="artist">Taylor Swift</p>
+            <p id="line">|</p>
+            <p id="album">1989</p>
+            <p id="line">|</p>
+            <p id "genre">Pop</p>
+          </ul>
+          <p id="song">See You Again</p>
+          <ul>
+            <p id="artist">Wiz Khalifa</p>
+            <p id="line">|</p>
+            <p id="album">Furious 7: Original Motion Picture Soundtrack</p>
+            <p id="line">|</p>
+            <p id "genre">Hip Hop</p>
+          </ul>
+          <p id="song">Sugar</p>
+          <ul>
+            <p id="artist">Maroon 5</p>
+            <p id="line">|</p>
+            <p id="album">V</p>
+            <p id="line">|</p>
+            <p id "genre">Pop</p>
+          </ul>
+          <p id="song">Love Me Like You Do</p>
+          <ul>
+            <p id="artist">Ellie Goulding</p>
+            <p id="line">|</p>
+            <p id="album"> Fifty Shades of Grey: Original Motion Picture Soundtrack</p>
+            <p id="line">|</p>
+            <p id "genre">Pop</p>
+          </ul>
+        </legend>
+      </section>
+    </article>
+  </div>
+</body>
