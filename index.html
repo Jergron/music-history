@@ -7,6 +7,7 @@
 </head>
 
 <body>
+<div>
   <header>
     <div class="top">
       <nav>
@@ -26,64 +27,65 @@
       </nav>
     </div>
   </header>
+</div>
   <article class="sidebar">
     <section>
-      <legend for=fader id="slide" class="space">Song Length:</legend>
+      <label for=fader id="slide" class="space">Song Length:</label>
       <div class="drop">
         <input type=range min=0 max=5 value=3 id="fader">
       </div>
     </section>
     <div class="drop">
       <section>
-        <legend class="artist">
+        <label class="artist">
           <p>Artist:</p>
-        </legend>
+        </label>
         <select id="options">
           <option value="options">Options</option>
         </select>
-        <legend class="album">
+        <label class="album">
           <p>Album:</p>
-        </legend>
+        </label>
         <select id="options">
           <option value="options">Options</option>
         </select>
       </section>
     </div>
-    <legend class="drop">
+    <label class="drop">
       <p>Genre:</p>
-    </legend>
+    </label>
     <div class="check">
       <form action="demo_form.asp">
-        <legend>
+        <label>
           <input type="checkbox" name="music" value="rock">Rock
-        </legend>
-        <legend>
+        </label>
+        <label>
           <input type="checkbox" name="music" value="pop">Pop
-        </legend>
-        <legend>
+        </label>
+        <label>
           <input type="checkbox" name="music" value="blues">Blues
-        </legend>
+        </label>
     </div>
     <div class="list">
-      <legend>
+      <label>
         <input type="checkbox" name="music" value="classical">Classical
-      </legend>
-      <legend>
+      </label>
+      <label>
         <input type="checkbox" name="music" value="jazz">Jazz
-      </legend>
-      <legend>
+      </label>
+      <label>
         <input type="checkbox" name="music" value="hip hop">Hip Hop
-      </legend>
+      </label>
     </div>
     <div id="button">
       <input type="submit" value="Filter">
     </div>
     </form>
   </article>
-  <div class="main">
+  <div id="main">
     <article>
       <section>
-        <legend>
+        <label><!-- 
           <p id="song">Bad Blood</p>
           <ul>
             <p id="artist">Taylor Swift</p>
@@ -114,11 +116,12 @@
             <p id="line">|</p>
             <p id="album"> Fifty Shades of Grey: Original Motion Picture Soundtrack</p>
             <p id="line">|</p>
-            <p id "genre">Pop</p>
+            <p id "genre">Pop</p> -->
           </ul>
-        </legend>
+        </label>
       </section>
     </article>
   </div>
+  <script type="text/javascript" src="music.js"></script>
 </body>
 </html>
