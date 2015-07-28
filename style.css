@@ -78,6 +78,8 @@ SIDEBAR
   font-size: 14px;
   border: 2px solid black;
   margin-right: 1em;
+  flex: 1;
+  min-width: 200px;
   /*margin-bottom: 1em;*/
 }
 
@@ -152,12 +154,11 @@ MAIN
 /*  border: 2px solid green;*/
   flex-grow: 2;
   border: 2px solid black;
-
+  background-color: #FEFAC0;
   
 }
 #main section {
   /*height: 372px;*/
-  background-color: #FEFAC0;
   overflow: scroll;
 }
 
